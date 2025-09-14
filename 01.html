@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>deepak</title>
+</head>
+
+<body>
+    <!-- <button id="btn0" onclick="green()">first</button>
+    <button id="btn1" onclick="red()">second</button> -->
+    <!-- costume attributes in js -->
+     <button data-color="red">red</button>
+     <button data-color="green">green</button>
+     <button data-color="yellow">yellow</button>
+    <script>
+        document.querySelectorAll('button').forEach(e=>{
+            e.addEventListener('click',()=>{
+                document.body.style.backgroundColor = e.dataset.color;
+            })
+        })
+        // let btn0 = document.getElementById('btn0');
+        // let btn1 = document.getElementById('btn1');
+        
+        // btn0.addEventListener('click', () => {
+        //     document.body.style.backgroundColor = 'green'
+        // })
+        // btn1.addEventListener('click', () => {
+        //     document.body.style.backgroundColor = "red";
+        // })
+    </script>
+</body>
+
+</html>
