@@ -62,7 +62,7 @@
 // Q4. Ek function banao jo check kare ki number even hai ya odd, aur callback me print ho. 
 // function check(num,cb){
 //     console.log("checking the number is even or odd:");
-    
+
 //     return cb(num);
 // }
 // function even(num,cb){
@@ -181,3 +181,103 @@
 
 
 // two btn problem
+// let arr = [1,2,3,4,5,6];
+// let newarray = arr.map((a)=>a>3);
+// console.log(newarray);
+
+// let obj={
+//     a:"abc",
+//     b:"avc",
+//     abc:{
+//         add:"some",
+//         use:"use",
+//     },
+// }
+// let {a,abc:{add:p}}=obj;
+// console.log(p,a);
+
+// write a function to convert into lower case
+// function tolowercase(str){
+//   let a= str.split(" ")
+//   let max=Infinity;
+//   let min="";
+//   for(let i=0;i<a.length;i++){
+//     if(a[i].length<min){
+//         min=a[i];
+//         max=a[i];
+//     }
+//   }
+//   return max;
+// }
+// console.log(tolowercase("I AM DEEPAK"));
+
+
+// how to find dublicate element in array
+// let arr = [1, 2, 3, 4, 5, 6, 2, 3, 4, 5, 6, 4, 5, 4, 5]
+
+// function duplicateCount(arr){
+//     let freq = {};
+//     for(let num of arr){
+//         freq[num] = (freq[num] || 0) + 1;
+//     }
+//     return freq;
+// }
+
+// console.log(duplicateCount(arr));
+
+
+// function reverse a string
+// function reverse(str){
+//     let str1=str.split(" ").reverse().join(" ");
+//     return str1;
+// }
+// console.log(reverse("hello  i am deepak"));
+
+// find factorial using function 
+// function  factorial(num){
+//     if(num==1)return 1;
+//     return num*factorial(num-1);
+// }
+// console.log(factorial(5));
+
+// function palindrom or not 
+// function check(str){
+//  let str1= str.split("").reverse().join("");
+//  let res=(str==str1)?"string is plaindrom":"string is not plaindrom";
+// //  if (str==str1) {
+// //     return "string is plaindrom";
+// //  }else{
+// //     return "not palindrom:";
+// //  }
+// return res;
+
+// }
+// console.log(check("nitioon"));
+
+// function to find max in array
+// function maxElement(arr){
+//     let max=0;
+//     for(let el of arr){
+//       if(max<el){
+//             max=el;
+//         }
+//     }
+//     return max;  
+// }
+
+// console.log(maxElement([1,2,3,46,5,4]));
+
+// complete promise
+// let promise = new Promise((resolve, reject) => {
+//     // resolve("promise resolved");
+//     reject("error");
+// });
+
+// // promise.then((ms) => {
+// //     console.log(ms); // output: promise resolved
+// // });
+// promise.catch((error)=>{
+//     console.error("this is an error");
+    
+// })
+
