@@ -78,4 +78,106 @@
 // }
 // console.log(check(12,even));
 
-// 
+// function check(n,cb){
+//     console.log("checking");
+//     return cb(n)
+// }
+// function even(n,cb){
+//     if(n%2==0){
+//         return "number is even:"
+//     }
+
+//     return cb;
+// }
+// function odd(n){
+//      if(n%2==1){
+//         return "number is odd:"
+//     }
+// }
+// console.log(check(3,odd));
+
+
+// function check(n, cb){ 
+//     return cb(n); 
+// }
+// function even(n, cb){ 
+//     if(n%2===0) return "even"; 
+//     return cb(n); }
+// function odd(n){ 
+//     console.log("odd", n);
+//  }
+
+// check(3, even);
+
+// let arr = new Array();
+// arr[0] = 1;
+// arr[1]= 0;
+// console.log(arr);
+// console.log(typeof arr);
+// arry = arr.pop(1)
+// console.log(arr);
+// console.log(arry);
+
+
+// for of loop in js
+// let array = [1,2,3,4,5,6];
+// // for(let key of array){
+// //     console.log(key);  
+// // }
+// // for(let value in array){
+// //     console.log(value);  
+// // }
+// // let a=array.forEach((key)=>{
+// //     console.log(key);
+// //     return "hello"
+// // })
+// // console.log(a);
+
+// // let b = array.map((key)=>{
+// //     console.log(key);
+// //     return "hello"
+// // })
+// // console.log(b);
+
+// // what is diffrence btw method and function in js
+// let obj =new Object();
+// obj.name="deepak";
+// obj.add=function (a,b){
+//     return function(){
+//        return a+b;
+//     };
+// };
+// obj.sub=(a,b)=>a-b;
+// let ret= obj.add(3,4);
+// console.log(ret());
+// console.log(obj);
+// console.log(obj.sub(6,2));
+
+
+// multidimentional array in js
+// let multiarray  =  [["deepak",22],["kapil",32]]
+// console.log(multiarray[1][0]);
+
+// create a function curying
+// function one(){
+//    console.log("one");
+//     return ()=>{
+//         console.log("two");
+//         return  ()=>{
+//             console.log("three");
+//         }
+//     }
+// }
+// one()()();
+
+
+// function one(cb){
+//     console.log("heoo kldffhishf skfdasdhfh");
+//      return cb();
+// }
+// one(function y(){
+//     console.log("hello i am deepak:");
+// })
+
+
+// two btn problem
